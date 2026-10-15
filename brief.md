@@ -16,11 +16,17 @@ App Transport Security (ATS) is an Apple platform feature that helps protect pri
 
 Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 ## Networking
+IPv4 uses 32-bit IP addresses, while IPv6 uses 128-bit addresses. This gives IPv6 a much larger address space and helps support the growing number of phones, sensors, computers, and other connected devices. In a government service, IPv6 can help the network support more connected devices as use grows. However, IPv6 does not automatically make every connection faster. Speed also depends on network design, routing, servers, and the user’s connection. The system should be tested on IPv4 and IPv6 where needed.
 
+Resource: RFC 4291: IP Version 6 Addressing Architecture - https://www.rfc-editor.org/rfc/rfc4291
 ## Cybersecurity
+Prompt injection happens when someone gives a large language model instructions that try to change its intended behavior. Direct prompt injection comes from a user’s own input. Indirect prompt injection can be hidden in outside content, such as a webpage or file the assistant reads. To reduce the risk, the team should treat outside content as untrusted and keep it separate from system instructions. It should also limit the assistant’s tool permissions and test inputs and outputs for unsafe behavior.
 
+Resource: LLM01: Prompt Injection - https://genai.owasp.org/llmrisk2023-24/llm01-24-prompt-injection/
 ## Data
+When storing chat logs, anonymization means changing information so a person can no longer be identified. Pseudonymization replaces direct identifiers with a code, but extra information may still link the record back to a person. Under the GDPR, pseudonymized data can still be personal data, while truly anonymous information is outside the Regulation’s scope. The service should collect only needed log data, restrict access, set a retention period, and protect any key that links codes to people.
 
+Resource: Regulation (EU) 2016/679 (General Data Protection Regulation) - https://eur-lex.europa.eu/eli/reg/2016/679/oj
 ## Misconception in My Track
 
 ## Open Question
