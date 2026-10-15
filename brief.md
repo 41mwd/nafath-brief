@@ -28,5 +28,6 @@ When storing chat logs, anonymization means changing information so a person can
 
 Resource: Regulation (EU) 2016/679 (General Data Protection Regulation) - https://eur-lex.europa.eu/eli/reg/2016/679/oj
 ## Misconception in My Track
-
+A common misconception is that IPv6 addresses are still 32 bits, just like IPv4, but written in a different format. In fact, IPv6 addresses are 128-bit identifiers, which gives IPv6 a much larger address space than IPv4. This matters because more connected devices need IP addresses as technology grows. The difference is about address size, not a promise of faster internet. Section 2, “IPv6 Addressing,” in RFC 4291 states that IPv6 addresses are 128-bit identifiers for interfaces and sets of interfaces.
 ## Open Question
+How should the government app support IPv4 and IPv6 during the transition while keeping connections secure and ensuring that citizens using older networks can still reach the service?
